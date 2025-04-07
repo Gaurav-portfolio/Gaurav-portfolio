@@ -6,65 +6,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Gaurav's Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-    header { background: #333; color: #fff; padding: 1em 0; text-align: center; }
-    section { padding: 20px; }
-    .gallery img, .videos iframe { width: 100%; max-width: 300px; margin: 10px; border-radius: 10px; }
-    .gallery, .videos { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
-    footer { background: #222; color: #fff; text-align: center; padding: 1em 0; margin-top: 20px; }
-    .btn { display: inline-block; margin: 10px; padding: 10px 20px; background: #007bff; color: #fff; text-decoration: none; border-radius: 5px; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header, footer { background: #333; color: white; padding: 1em; text-align: center; }
+    .section { padding: 2em; text-align: center; }
+    .button {
+      background-color: #28a745;
+      border: none;
+      color: white;
+      padding: 1em 2em;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1em;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .button:hover { background-color: #218838; }
   </style>
 </head>
 <body>
   <header>
-    <h1>Gaurav's Photography Portfolio</h1>
-    <p>Nature | Sky | Clouds | Sunsets | Moon</p>
+    <h1>Gaurav's Portfolio</h1>
+    <p>Nature Photographer | Video Creator | Freelancer</p>
   </header>
 
-  <section id="gallery">
-  <h2 class="text-xl font-semibold mb-4">Photo Gallery</h2>
-  <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-    <img src="https://drive.google.com/uc?export=view&id=1Mx9zCoO6KFo_iBCx145umio8vOdimNky" alt="Image 1" />
-    <img src="https://drive.google.com/uc?export=view&id=10S6HHWK8GhsrEOBMuwkyA1spi6TdNgyF" alt="Image 2" />
-    <img src="https://drive.google.com/uc?export=view&id=1q3hNgCFzJ5m5VcNlwzjWlNfWLZrVBKrx" alt="Image 3" />
-    <img src="https://drive.google.com/uc?export=view&id=1NwItd_OEPX_sAeKclEDPaYdTqtWMtP6N" alt="Image 4" />
-    <img src="https://drive.google.com/uc?export=view&id=1tS-5Zz_f3OjwV9AQHhfkXQaQt1ZtLfRD" alt="Image 5" />
-    <img src="https://drive.google.com/uc?export=view&id=17EMe40qO5ByeUUZlUDdINUPqn4EhHaj8" alt="Image 6" />
-    <img src="https://drive.google.com/uc?export=view&id=1FjEbUEMYqqzlwQss5fbn6L8E4VDc_ee5" alt="Image 7" />
-    <img src="https://drive.google.com/uc?export=view&id=16rgJ5E9okGA3gvRzNcqQTTZ5o75IUoeq" alt="Image 8" />
-    <img src="https://drive.google.com/uc?export=view&id=1-rTGhxRC8SOsnN7q-E_i9tAbALJ-Lw2w" alt="Image 9" />
-    <img src="https://drive.google.com/uc?export=view&id=1AOnJdkIQ0z0VYTGtnDImV0brazxPw1Fd" alt="Image 10" />
-  </div>
+  <section class="section">
+    <h2>Welcome</h2>
+    <p>Hi, I'm Gaurav. I create beautiful nature content including sky shots, flowers, sunsets, and more.</p>
   </section>
 
-  <section class="videos">
-    <h2>Videos</h2>
-    <iframe src="https://drive.google.com/file/d/1vJVbgjuW1ZrqUEs3jdMEPf1-BTMfL9to/preview" allow="autoplay"></iframe>
-    <iframe src="https://drive.google.com/file/d/1pvvSXwCuxv8UMp7AC-93DD1jS5AXvU3d/preview" allow="autoplay"></iframe>
-  </section>
-  <section class="about">
-    <h2>About Me</h2>
-
-    <p>Hi, I'm Gaurav — a nature enthusiast who loves capturing the beauty of the sky, clouds, sunsets, and the moon. I also enjoy creating peaceful nature-related videos. This website is my little creative space. Looking for freelance work too!</p>
-
-  </section>
-
-
-  <section style="text-align: center;">
-    <a class="btn" href="https://www.fiverr.com/" target="_blank">Visit Fiverr Profile</a>
-    <a class="btn" href="https://www.pexels.com/join/" target="_blank">Upload to Pexels</a>
-    <a class="btn" href="https://www.shutterstock.com/contributorsignup" target="_blank">Join Shutterstock</a>
+  <section class="section" style="background: #e9ecef;">
+    <h2>Fiverr - Hire Me</h2>
+    <p>Looking to work with me? I offer services in photo editing, nature content creation, and more!</p>
+    <a class="button" href="https://www.fiverr.com/s/DBlWG97" target="_blank">Visit My Fiverr Profile</a>
   </section>
 
   <footer>
-    <p>Connect with me on
-    <a href="https://www.instagram.com/itz_g.a.u_r.a.v_005" target="_blank">Follow on Instagram</a>
-  </p>
-    <p>&copy; 2025 Gaurav's Portfolio | All rights reserved.</p>
-    <nav>
-      <a href="#gallery">Gallery</a>
-      <a href="#about">About</a>
-    </nav>
+    <p>Follow me on <a style="color: #0af;" href="https://www.instagram.com/itz_g.a.u_r.a.v_005/profilecard/?igsh=MWw1ODkwYzg4ZGJneg==" target="_blank">Instagram</a></p>
   </footer>
 </body>
 </html>
