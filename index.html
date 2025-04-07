@@ -1,67 +1,51 @@
-<!DOCTYPE html><html lang="en">
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gaurav's Nature Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gaurav's Portfolio</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f2f2f2;
-      color: #333;
-    }
-    header, section {
-      padding: 2rem;
-      text-align: center;
-    }
-    .gallery, .videos {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
-    }
-    .gallery img, .videos iframe {
-      width: 300px;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    .btn {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
-      background-color: #007bff;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-top: 1rem;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+    header { background: #333; color: #fff; padding: 1em 0; text-align: center; }
+    section { padding: 20px; }
+    .gallery img, .videos iframe { width: 100%; max-width: 300px; margin: 10px; border-radius: 10px; }
+    .gallery, .videos { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+    footer { background: #222; color: #fff; text-align: center; padding: 1em 0; margin-top: 20px; }
+    .btn { display: inline-block; margin: 10px; padding: 10px 20px; background: #007bff; color: #fff; text-decoration: none; border-radius: 5px; }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to Gaurav's Nature Portfolio</h1>
-    <p>Sky Shots | Clouds | Flowers | Sunsets | Moon</p>
-  </header>  <section id="gallery">
-    <h2>Photo Gallery</h2>
-    <div class="gallery">
-      <img src="https://drive.google.com/uc?export=view&id=1E-3HFlX7qjroqx9ljJ2xgcSrqdVlYX59" alt="Nature Photo 1">
-      <img src="https://drive.google.com/uc?export=view&id=1qAqP2in8q4LUKniDeJV145B_gYBlZG-W" alt="Nature Photo 2">
-      <img src="https://drive.google.com/uc?export=view&id=1fJ5sukb0ZnRCA5aL0oT4zhdGC1ALRnqc" alt="Nature Photo 3">
-      <img src="https://drive.google.com/uc?export=view&id=1oZL_N7Z31dsMhNmx89MYY9sS6QPPZwXC" alt="Nature Photo 4">
-      <img src="https://drive.google.com/uc?export=view&id=1egNSYWHQtBD8fw6XnnfQxbRaFgduQkCc" alt="Nature Photo 5">
-      <img src="https://drive.google.com/uc?export=view&id=1BTDQJo52728i7BLTpY1BIhYd7bM11AeD" alt="Nature Photo 6">
-    </div>
-  </section>  <section id="videos">
-    <h2>Video Edits</h2>
-    <div class="videos">
-      <iframe src="https://drive.google.com/file/d/1vJVbgjuW1ZrqUEs3jdMEPf1-BTMfL9to/preview" width="300" height="200" allow="autoplay"></iframe>
-      <iframe src="https://drive.google.com/file/d/1pvvSXwCuxv8UMp7AC-93DD1jS5AXvU3d/preview" width="300" height="200" allow="autoplay"></iframe>
-    </div>
-  </section>  <section id="hire">
-    <h2>Hire Me</h2>
-    <p>If you like my work and want to collaborate, feel free to connect with me on Instagram!</p>
-    <a href="https://www.instagram.com/itz_g.a.u_r.a.v_005/" target="_blank" class="btn">Hire Me on Instagram</a>
-  </section></body>
+    <h1>Gaurav's Photography Portfolio</h1>
+    <p>Nature | Sky | Clouds | Sunsets | Moon</p>
+  </header>
+
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <img src="https://drive.google.com/uc?export=view&id=1E-3HFlX7qjroqx9ljJ2xgcSrqdVlYX59" alt="Gallery Image 1" />
+    <img src="https://drive.google.com/uc?export=view&id=1qAqP2in8q4LUKniDeJV145B_gYBlZG-W" alt="Gallery Image 2" />
+    <img src="https://drive.google.com/uc?export=view&id=1fJ5sukb0ZnRCA5aL0oT4zhdGC1ALRnqc" alt="Gallery Image 3" />
+    <img src="https://drive.google.com/uc?export=view&id=1oZL_N7Z31dsMhNmx89MYY9sS6QPPZwXC" alt="Gallery Image 4" />
+    <img src="https://drive.google.com/uc?export=view&id=1egNSYWHQtBD8fw6XnnfQxbRaFgduQkCc" alt="Gallery Image 5" />
+    <img src="https://drive.google.com/uc?export=view&id=1BTDQJo52728i7BLTpY1BIhYd7bM11AeD" alt="Gallery Image 6" />
+  </section>
+
+  <section class="videos">
+    <h2>Videos</h2>
+    <iframe src="https://drive.google.com/file/d/1vJVbgjuW1ZrqUEs3jdMEPf1-BTMfL9to/preview" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/1pvvSXwCuxv8UMp7AC-93DD1jS5AXvU3d/preview" allow="autoplay"></iframe>
+  </section>
+
+  <section style="text-align: center;">
+    <a class="btn" href="https://www.instagram.com/itz_g.a.u_r.a.v_005/profilecard/?igsh=MWw1ODkwYzg4ZGJneg==" target="_blank">Follow on Instagram</a>
+    <a class="btn" href="https://www.fiverr.com/" target="_blank">Visit Fiverr Profile</a>
+    <a class="btn" href="https://www.pexels.com/join/" target="_blank">Upload to Pexels</a>
+    <a class="btn" href="https://www.shutterstock.com/contributorsignup" target="_blank">Join Shutterstock</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gaurav's Portfolio | All rights reserved.</p>
+  </footer>
+</body>
 </html>
